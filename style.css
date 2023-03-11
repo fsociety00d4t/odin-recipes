@@ -1,0 +1,79 @@
+#main {
+    font-family: 'Lucida Sans', Arial, Sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color:brown;
+    font-weight: bold;
+
+}
+
+.item {
+    color: blue;
+
+
+}
+
+a  {
+    color:darkturquoise;
+    font-family: 'Lucida Grande','Lucida Sans',sans-serif;
+    text-align:center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.top {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 50px;
+    text-align: center;
+}
+
+.top.shrimp{
+    color:indianred;
+}
+
+.top.oat {
+    color:rgb(211, 36, 36);
+}
+
+.top.omelette {
+    color: rgb(241, 241, 10);
+}
+
+img {
+    height: auto;
+    width:500px;
+}
+
+.oat_img {
+    height: 500px;
+    width:300px;
+}
+
+h3 {
+    background-color: aqua;
+}
+
+h3.top_des {
+    background-color: blueviolet;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+#ing {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#items {
+    font-family:cursive;
+    color:magenta;
+}
+
+strong {
+    color: red;
+}
