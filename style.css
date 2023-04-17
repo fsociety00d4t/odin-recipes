@@ -36,7 +36,7 @@ a  {
 }
 
 .top.omelette {
-    color: rgb(241, 241, 10);
+    color: rgba(228, 228, 38, 0.863);
 }
 
 img {
@@ -50,11 +50,11 @@ img {
 }
 
 h3 {
-    background-color: aqua;
+   /* background-color: aqua; */
 }
 
 h3.top_des {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
 
@@ -76,4 +76,145 @@ p {
 
 strong {
     color: red;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items:flex-start;
+    height:100px;
+    background-color: rgb(75, 168, 51);
+}
+
+.right_header {
+    display:flex;
+    gap:10px;
+}
+
+.right_header a{
+    color:rgb(173, 29, 65);
+}
+
+.left_header h1 a{
+    padding:0px;
+    margin:0px;
+    color:rgb(173, 29, 65);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:30px;
+}
+
+.header_2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(75, 168, 51);
+    
+}
+
+.header_2_text h3 {
+    font-size: 50px;
+    max-width:400px;
+    background-color: transparent;
+    margin-left: 100px;
+    
+    
+}
+
+.header_2_text p {
+    font-size:20px;
+    max-width:600px;
+}
+
+button {
+    color:black;
+    background-color: rgb(161, 60, 13);
+    border-radius: 12px;
+    width:100px;
+    height:30px;
+    align-self:center;
+}
+
+#main_text {
+    font-size:50px;
+    text-align: center;
+}
+
+.main_section {
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    gap:40px;
+    padding-bottom: 90px;
+
+}
+
+.item img {
+    width:200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(75, 168, 51);
+    border-radius: 100px;   
+}
+
+.item img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+.text {
+    text-align: center;
+}
+
+.text a {
+    color: rgb(75, 168, 51);
+}
+
+.section_3{
+    height: 200px;
+    background-color:rgb(216, 190, 190);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.karen {
+    text-align: right;
+}
+
+.footer {
+    height: 50px;
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+    color:white;
+    background-color: black;
+}
+
+.shrimp_img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.oat_img {
+    width:20%;
+    display:block;
+    margin:auto;
+    padding:auto;
+}
+
+.omelette_img {
+    width:20%;
+    display:block;
+    padding:auto;
+    margin:auto;
+
 }
